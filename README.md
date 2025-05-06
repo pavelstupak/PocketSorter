@@ -1,6 +1,7 @@
 # PocketSorter
 
 iOS app for sorting items saved in Pocket by adding tags or sending to archive.
+
 (An application for managing saved-items chaos. The goal is weekly zero inbox of untagged items.)
 
 ## Features
@@ -16,8 +17,10 @@ iOS app for sorting items saved in Pocket by adding tags or sending to archive.
 1. Clone the repository.
 2. Create a file at `Config/Secrets.xcconfig` with the following content:
 
+```
 POCKET_CONSUMER_KEY = your-pocket-consumer-key
 POCKET_ACCESS_TOKEN = your-pocket-access-token
+```
 
 3. Open `PocketSorter.xcodeproj` in Xcode.
 4. Build and run the app.
