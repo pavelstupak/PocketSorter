@@ -1,0 +1,8 @@
+//
+//  Release.xcconfig
+//  PocketSorter
+//
+//  Created by Pavel Stupak on 05.05.2025.
+//
+
+#include? "Secrets.xcconfig"

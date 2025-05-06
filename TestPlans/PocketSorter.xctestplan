@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "E2262028-80D6-4DAB-98C2-F5BD2AE083EE",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PocketSorter.xcodeproj",
+      "identifier" : "E98DA4B02D832B4E00A363D6",
+      "name" : "PocketSorterUITests"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PocketSorter.xcodeproj",
+        "identifier" : "E98DA4A62D832B4E00A363D6",
+        "name" : "PocketSorterTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PocketSorter.xcodeproj",
+        "identifier" : "E98DA4B02D832B4E00A363D6",
+        "name" : "PocketSorterUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

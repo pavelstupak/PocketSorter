@@ -1,0 +1,18 @@
+# MARK: - Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcuserstate
+
+# MARK: - Archives & Logs
+*.xcarchive
+*.log
+*.lldb
+*.moved-aside
+*.swp
+*.DS_Store
+
+# MARK: - Secrets & Local Configuration
+Config/Secrets.xcconfig
